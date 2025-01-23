@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #041867;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo img">
+            <img src="images/pavi logo.jpg" alt="" width="40px" height="40px">
+        </div>
+        <div class="burger" id="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="navbar-menu" id="navbar-menu">
+            <a href="index.html">Home</a>
+        <a href="Contact.html">Contact Us</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="accessibility.html">Accessibility</a>
+        <a href="newsletter.html">Newsletter Signup</a>
+        <a href="donate.html">Donate</a>
+        <a href="about.html">About Us</a>
+        <a href="Blog and News.html">Blog/News</a>
+        <a href="our project.html">Our Projects</a>
+        <a href="Financial transparency.html">Transparency</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Get involve.html">Get involve</a>
+        </div>
+    </div>
+    
+    <script>
+        const burger = document.getElementById('burger');
+        const navbarMenu = document.getElementById('navbar-menu');
+    
+        burger.addEventListener('click', () => {
+            navbarMenu.classList.toggle('active');
+        });
+    </script>
+<center>
+    <div class="logo img">
+        <img src="images/pavi logo.jpg" alt="" width="150px" height="70px" >
+    </div></center>
+    
+
+<div class="container">
+    <center><h1>Accessibility</h1></center>
+    <div class="section">
+        <h2>Our Accessibility Features</h2>
+        
+        <div class="accessibility-feature">
+            <h3>Screen Reader Compatibility</h3>
+            <p>Our website is designed to be compatible with screen readers, making it easier for users with visual impairments to access our content. We ensure that all images have descriptive alt text and that our layout is structured for optimal navigation.</p>
+        </div>
+
+        <div class="accessibility-feature">
+            <h3>Adjustable Text Size</h3>
+            <p>Users can easily adjust the text size on our website to suit their preferences. We recommend using browser settings or accessibility tools to modify text size for better readability.</p>
+        </div>
+
+        <div class="accessibility-feature">
+            <h3>Keyboard Navigation</h3>
+            <p>Our website supports keyboard navigation, allowing users to navigate through links and interactive elements without the need for a mouse. Tab key navigation is enabled for all interactive components.</p>
+        </div>
+
+        <div class="accessibility-feature">
+            <h3>Color Contrast</h3>
+            <p>We use high-contrast colors to ensure that text is legible against the background. This helps users with visual impairments to read our content more easily.</p>
+        </div>
+
+        <div class="accessibility-feature">
+            <h3>Responsive Design</h3>
+            <p>Our website is fully responsive, ensuring that it is accessible on various devices, including desktops, tablets, and smartphones. This adaptability enhances the user experience for everyone.</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-container">
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+                <li><a href="newsletter.html">Newsletter Signup</a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p>&copy; 2025 PAVI organization. All rights reserved.</p>
+            <p>Follow us on social media:</p>
+            <p>
+                <a href="" target="_blank">Facebook</a> | 
+                <a href="" target="_blank">Twitter</a> | 
+                <a href="" target="_blank">Instagram</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

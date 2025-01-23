@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Transparency </title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color:  #041867;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .report, .budget {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #e9e9e9;
+            border-radius: 8px;
+        }
+        .budget-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .budget-table th, .budget-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        .budget-table th {
+            background:  #041867;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo img">
+            <img src="images/pavi logo.jpg" alt="" width="40px" height="40px">
+        </div>
+        <div class="burger" id="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="navbar-menu" id="navbar-menu">
+            <a href="index.html">Home</a>
+        <a href="Contact.html">Contact Us</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="accessibility.html">Accessibility</a>
+        <a href="newsletter.html">Newsletter Signup</a>
+        <a href="donate.html">Donate</a>
+        <a href="about.html">About Us</a>
+        <a href="Blog and News.html">Blog/News</a>
+        <a href="our project.html">Our Projects</a>
+        <a href="Financial transparency.html">Transparency</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Get involve.html">Get involve</a>
+        </div>
+    </div>
+    
+    <script>
+        const burger = document.getElementById('burger');
+        const navbarMenu = document.getElementById('navbar-menu');
+    
+        burger.addEventListener('click', () => {
+            navbarMenu.classList.toggle('active');
+        });
+    </script>
+<center>
+    <div class="logo img">
+        <img src="images/pavi logo.jpg" alt="" width="150px" height="70px" >
+    </div></center>
+    
+
+<div class="container">
+    <center>
+        <h1>Financial Transparency</h1>
+    </center>
+    <div class="section">
+        <h2>Financial Reports</h2>
+        <div class="report">
+            <h3>Annual Financial Report 2024</h3>
+            <p>Our annual report provides a comprehensive overview of our financial activities and impact. You can download the full report using the link below:</p>
+            <a href="financial-report-2024.pdf" target="_blank">Download Report (PDF)</a>
+        </div>
+        <div class="report">
+            <h3>Quarterly Financial Statement Q1 2025</h3>
+            <p>This statement summarizes our financial performance for the first quarter of 2025. Download it below:</p>
+            <a href="quarterly-report-q1-2025.pdf" target="_blank">Download Statement (PDF)</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Detailed Budget Breakdown</h2>
+        <div class="budget">
+            <h3>2025 Budget Overview</h3>
+            <table class="budget-table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Amount ($)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Programs and Services</td>
+                        <td>200,000</td>
+                    </tr>
+                    <tr>
+                        <td>Administrative Expenses</td>
+                        <td>50,000</td>
+                    </tr>
+                    <tr>
+                        <td>Fundraising Expenses</td>
+                        <td>30,000</td>
+                    </tr>
+                    <tr>
+                        <td>Marketing and Outreach</td>
+                        <td>20,000</td>
+                    </tr>
+                    <tr>
+                        <td>Miscellaneous</td>
+                        <td>10,000</td>
+                    </tr>
+                    <tr>
+                        <th>Total Budget</th>
+                        <th>320,000</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-container">
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+                <li><a href="newsletter.html">Newsletter Signup</a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p>&copy; 2025 PAVI organization. All rights reserved.</p>
+            <p>Follow us on social media:</p>
+            <p>
+                <a href="" target="_blank">Facebook</a> | 
+                <a href="" target="_blank">Twitter</a> | 
+                <a href="" target="_blank">Instagram</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

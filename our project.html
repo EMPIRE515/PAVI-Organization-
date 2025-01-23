@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects - PAVI NGO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+         
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #041867;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .project, .impact {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #e9e9e9;
+            border-radius: 8px;
+        }
+        .map-container {
+            width: 100%;
+            height: 400px;
+            margin: 20px 0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo img">
+            <img src="images/pavi logo.jpg" alt="" width="40px" height="40px">
+        </div>
+        <div class="burger" id="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="navbar-menu" id="navbar-menu">
+            <a href="index.html">Home</a>
+        <a href="Contact.html">Contact Us</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="accessibility.html">Accessibility</a>
+        <a href="newsletter.html">Newsletter Signup</a>
+        <a href="donate.html">Donate</a>
+        <a href="about.html">About Us</a>
+        <a href="Blog and News.html">Blog/News</a>
+        <a href="our project.html">Our Projects</a>
+        <a href="Financial transparency.html">Transparency</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Get involve.html">Get involve</a>
+        </div>
+    </div>
+    
+    <script>
+        const burger = document.getElementById('burger');
+        const navbarMenu = document.getElementById('navbar-menu');
+    
+        burger.addEventListener('click', () => {
+            navbarMenu.classList.toggle('active');
+        });
+    </script>
+    
+    <center>
+        <div class="logo img">
+            <img src="images/pavi logo.jpg" alt="" width="150px" height="70px" >
+        </div></center>
+    
+
+<div class="container">
+    <center><h1>Our Projects</h1></center>
+    <div class="section">
+        <h2>Ongoing Projects</h2>
+        <div class="project">
+            <h3>Education for All</h3>
+            <p>This project aims to provide educational resources and training to underprivileged prisoners in rural areas.</p>
+        </div>
+        <div class="project">
+            <h3>Health Access Initiative</h3>
+            <p>We are working to improve health services accessibility in remote communities through mobile clinics.</p>
+        </div>
+        <div class="project">
+            <h3>Sustainable Livelihoods Program</h3>
+            <p>This initiative focuses on training and resources for sustainable agriculture practices.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Impacts and Results</h2>
+        <div class="impact">
+            <h3>Education for All</h3>
+            <p>Over 1,000 prisoners have received educational materials and support, improving literacy rates by 30% in targeted areas.</p>
+        </div>
+        <div class="impact">
+            <h3>Health Access Initiative</h3>
+            <p>Provided healthcare services to over 5,000 individuals, resulting in a 25% increase in vaccination rates.</p>
+        </div>
+        <div class="impact">
+            <h3>Sustainable Livelihoods Program</h3>
+            <p>Trained 200 families in sustainable farming techniques, leading to a 40% increase in crop yields.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Project Locations</h2>
+        <div class="map-container" id="map"></div>
+    </div>
+</div>
+<footer>
+    <div class="footer-container">
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+                <li><a href="newsletter.html">Newsletter Signup</a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p>&copy; 2025 PAVI organization. All rights reserved.</p>
+            <p>Follow us on social media:</p>
+            <p>
+                <a href="" target="_blank">Facebook</a> | 
+                <a href="" target="_blank">Twitter</a> | 
+                <a href="" target="_blank">Instagram</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
